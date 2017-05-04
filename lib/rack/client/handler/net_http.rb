@@ -51,6 +51,7 @@ module Rack
                   when 'DELETE' then Net::HTTP::Delete
                   when 'GET'    then Net::HTTP::Get
                   when 'HEAD'   then Net::HTTP::Head
+                  when 'PATCH'  then Net::HTTP::Patch
                   when 'POST'   then Net::HTTP::Post
                   when 'PUT'    then Net::HTTP::Put
                   end
