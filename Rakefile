@@ -1,7 +1,7 @@
 require 'rake'
 require 'rake/clean'
 require 'rspec/core/rake_task'
-
+require 'bundler/gem_tasks'
 
 $:.unshift File.join(File.dirname(__FILE__), 'lib')
 require 'rack/client/version'
